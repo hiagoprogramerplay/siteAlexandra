@@ -1,0 +1,36 @@
+body {
+    background-image: url(../img/Sem\ Título-2.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: 50% 20%;
+
+}
+
+#container {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    display: center;
+    opacity: 100%;
+}
+
+#item {
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 500px;
+    background-color: rgb(55, 39, 66);
+    opacity: 80%;
+    margin: auto;
+    
+}
+
+#titulo {
+    
+    color: white;
+    margin: 10% 10%;
+    height: 200px;
+    width: 600px;
+   
+}
