@@ -4,51 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CADASTRO DE ALUNOS</title>
-    <link rel="stylesheet" type="text/css" href="style2.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="style2.css">
 </head>
 <body>
     <main>
         <div id="container">
-        <div id="item"> 
-            <div id="coletorDeInformacao">
-            <main>
-            <br><br>
-            <div id="titulo">
-                <strong><h1>CADASTRO DE ALUNOS!</h1></strong>
-                <br><br>
-                <form action="cad.php" method="get">
+            <div id="item"> 
+                <div id="coletorDeInformacao">
+                    <div id="titulo">
+                        <strong><h1>CADASTRO DE ALUNOS!</h1></strong><br><br>
 
-                
-                <label for="NOME"><strong>NOME:</strong></label>
-                
-                <input type="text" name="NOME" id="idNome"><form action="cad.php" method="get"></form><br><br>
+                            <section>
+                                <form action="cad1.php"method="get">
 
+                                    <label for="NOME"><strong>NOME:</strong></label>
+                                    <input type="text" name="nome" id="idNome"><br><br>
 
-                <label for="num"><strong>IDADE:</strong></label>
+                                    <label for="num"><strong>IDADE:</strong></label>
+                                    <input type="number" name="idade" id="idIdade"><br><br>
                 
-                <input type="number" name="IDADE" id="idIdade"><form action="cad.php" method="get"></form><br><br>
-                
-                <label for="num"><STRong>PESO:</STRong></label>
-                
-                <input type="number" name="PESO" id="idPeso"><form action="cad.php" method="get"></form><br><br>
+                                    <label for="num"><STRong>PESO:</STRong></label>
+                                    <input type="number" name="peso" id="idPeso"><br><br>
 
-                <input type="button" value="Cadastrar">
+                                    <label for="num"><STRong>IMC:</STRong></label>
+                                    <input type="number" name="imc" id="idimc"><br><br>
 
-                <input type="button" value="Voltar">
+                                    <label for="num"><STRong>PERCENTUAL DE GORDURA:</STRong></label>
+                                    <input type="number" name="porcentagemGordura" id="idgordura"><br><br>
+
+                                    <label for="num"><STRong>PERCENTUAL DE MASSA MUSCULAR ESQUELETICA:</STRong></label>
+                                    <input type="number" name="porcentMasMuscEsquel" id="idporcentmme"><br><br>
+
+                                    <label for="num"><STRong>REGISTRO DE MASSA MUSCULAR ESQUELETICA:</STRong></label>
+                                    <input type="number" name="porcentMasMuscEsquel" id="idporcentmme"><br><br>
+
+                                    <div class="btn"><input type="submit" value="Cadastrar"></div>  
+                                    
+                                    <p><a href="javascript:history.go(-1)">voltar para a pagina anterior</a></p>
+                                    >
+                                </form>     
+                            </section>
+                                
+                    </div>
+                </div>
             </div>
-                
-            
-            </main>
-        </div>
-
-        
-
-
-        </div>
-    
-    
     </main>
-    
 </body>
-    
 </html>
